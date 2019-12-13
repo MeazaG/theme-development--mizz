@@ -7,8 +7,45 @@
  * @package Mizz
  */
 
-get_header();
-?>
+get_header(); ?>
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Portfolio</title>
+		<meta name ="viewport" content="width=device-width, initial-scale =1.0">
+
+	</head>
+	<body>
+		<header>
+		<a href="index.html" class="header-brand">mmtuts</a>
+		<nav>
+			<ul>
+				<li><a href= "portfolio.html">Portfolio</a></li>
+				<li><a href="about.html">About me</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<a href="cases.html" class="header-cases">Cases</a>
+		</nav>
+	</header>
+	<main>
+		<section class="cases-links">
+			<h2 class="error-404">404 page Not Found!</h2>
+			<p class="error-404-p">The page you were looking for does not exist! Click<
+			<a href="index.html">here</a> to return to the Home page.<br>If you gotto this page by clicking alink, pleasenotify us so we can fix this error:)</p>
+			</section>
+			</main>
+			<div class="wrapper">
+				<footer>
+			<ul class="footer-links-main">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cases</a></li>
+				<li><a href="#">Portfolio</a></li>
+
+	
+	</body>
+	</html>>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -18,8 +55,17 @@ get_header();
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'mizz' ); ?></h1>
 				</header><!-- .page-header -->
 
+
+//
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'mizz' ); ?></p>
+					<p><?php esc_html_e( 'I am sorry.The page you are looking for is not available.', 'mypersonalinfo' );?></p>
+					<div class="error-homepage">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<?php esc_html_e('Back To Home','Helpinfo'); ?>
+					</a>
+
+//
+					
 
 					<?php
 					get_search_form();

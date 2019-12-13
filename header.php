@@ -11,17 +11,48 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html >
+<?php language_attributes(); ?>
 <head>
+
+<meta charset = "UTF - 8">
+<title> My HomePage</title>
+<?php bloginfo('Name');?>
+<?php wp_head(); ?>
+
+
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
+<body <?php body_class(); ?> >
+
+	<header id ="header">
+		<header>
+			<h1><a href="<?php echo home_url()?>"><?php bloginfo('name');?></a></h1>
+		<h3><?php bloginfo('description');?></h3>
+
+		<nav class="nav_menu">
+			<?php wp_nav_menu();?>
+			
+		</nav>
+
+	</header>
+
+
+		<div class = "container-fluid">
+			<div class = "row align-item-center justify-content-between d-flex">
+				<div id = "logo">
+					<a href = "index.php"><img src = "img/logo.png"alt="" title="" /></a>
+				</div>
+	<h2> <?php bloginfo('description'); ?></h2>
+
+<?php
+
+
+/**<div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mizz' ); ?></a>
 
 	<header id="masthead" class="site-header">
@@ -40,7 +71,7 @@
 			$mizz_description = get_bloginfo( 'description', 'display' );
 			if ( $mizz_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $mizz_description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $mizz_description; /* WPCS: xss ok.  ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
@@ -56,3 +87,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+	*/
