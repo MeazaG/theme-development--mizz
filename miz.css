@@ -1,0 +1,24 @@
+#colophon{
+
+
+	background-color: grey;
+	text-align: center;
+	padding-bottom: -700%;
+}
+
+#site-navigation{
+
+background-color:grey;
+
+}
+.page-title screen-reader-text{
+	text-color:white;
+	text-align: center;
+	text-decoration-color: white;
+	body{
+		font-size:14px;
+		color:#333;
+		background-color:#EEE;
+
+	}
+}
