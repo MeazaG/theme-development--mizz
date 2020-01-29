@@ -15,10 +15,67 @@ background-color:grey;
 	text-color:white;
 	text-align: center;
 	text-decoration-color: white;
+	
 	body{
-		font-size:14px;
+		font-size:16px;
 		color:#333;
 		background-color:#EEE;
 
 	}
 }
+#colophon{
+	text-align: center;
+	background-color: #07A3B2;
+	padding-top: 75px;
+	height: fit-content
+	
+
+
+}
+.site-info{
+	margin-bottom: 14px;
+	text-align: center;
+	margin-top: -16px;
+	align-items: center;
+
+}
+.navbar-expand-md .navbar-collapse{
+	background: #D9ECC7;
+}
+.navbar-collapse{
+	align-items: flex-end;
+}
+button{
+	background-color: #07A3B2;
+}
+
+input.search-submit{
+	background-color: #07A3B2;
+}
+.site-navigation{
+	margin-top: 50px;
+}
+#new-container{
+	width: 100px;
+	height: 80px;
+}
+
+.column1 {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  #rcorners2 {
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+  }
