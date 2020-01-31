@@ -1,17 +1,29 @@
 
 /*
-Theme Name : Natural Place Theme
+Theme Name : nature_miz Theme
+
+Theme URI:https://wordpress.com/view/mizg31737012
 Author:Meaza G.
-;
+Description: nature is easy, simple, flexible to use for description of natural places.
+Author URI:https://wordpress.com/view/mizg31737012.wordpress.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Nature
+Tags: two-columns,right-sidebar,custom-background,custom-colors,
+custom-menu,sticky-post,theme-options,threaded-comments,featured-images,custom-logo,
+editor-style,blog,entertainment,food-and-drink 
+
+This theme, like WordPress, is licensed under the GPL.This theme, like WordPress, is licensed under the GPL
+nature_miz is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL
+ v2 or later)
 */
-#colophon{
-
-
-	background-color: grey;
-	text-align: center;
-	padding-bottom: -700%;
-	padding-top: 75px;
-	height: fit-content
+#colophon{padding:25px 0; background:#11041b;}
+.footermenu ul{display:block;}
+.footermenu ul li{display:inline-block; text-align:center; list-style:none; margin: 10px 22px;}
+.footermenu ul li a{color:#838282; font-size:17px;}
+.footermenu ul li a:hover{color:#ffffff;}
+ 
 }
 
 #site-navigation{
@@ -19,8 +31,29 @@ Author:Meaza G.
 background-color:grey;
 
 }
+#masthead{
+	margin-right:10px; 
+	align-items: right;
+	width: 100%;
+  z-index: 999;
+  position: relative;
+  background-color: #11041b;
+
+
+}
+/*.site-branding{
+	width: 1170px;
+  margin: 0 auto;
+  position: left;
+
+
+}*/
+.site-branding{
+
+	background-color: white;
+}
 #page{
-    background-color: black;
+    background-color: white;
     border-image-width: -10px;
     text-align-last:left;
 
@@ -28,19 +61,34 @@ background-color:grey;
 
 
 .page-title screen-reader-text{
-	text-color:white;
+	text-color:;
 	text-align: center;
 	text-decoration-color: white;
+}
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-size: 14px;
+  color: #5c5b5b;
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box:10px;
+}
 	
-	body{
+	/*body{
 		background: #e7e7e7;
 		font-size:16px;
 		color:#333;
 		background-color:#EEE;
 
-	}
+	}*/
 	header{
-		background:white;
+		background:#11041b;
 		width:100%;
 		height:100%;
 
@@ -50,16 +98,16 @@ background-color:grey;
 	margin-bottom: 14px;
 	text-align: center;
 	margin-top: -16px;
-	align-items: center;
+	align-items: right;
 
 }
 .navbar-expand-md .navbar-collapse{
-	background:gray;
-	text-color:black;
-	text-align: center;
+	background:;
+	text-color:white;
+	text-align: right;
 }
 .navbar-collapse{
-	color: black;
+	color: ;
 	align-items: flex-end;
 }
 button{
