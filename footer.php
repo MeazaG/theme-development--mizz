@@ -52,6 +52,7 @@
 				  }
 				  ?>
 				</div>
+			</div>
 
 				<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'nature' ) ); ?>">
@@ -59,10 +60,26 @@
 				printf( esc_html__( 'Proudly powered by %s', 'nature' ), 'Miz' );
 				?>
 			</a>
-			<span class ="sep">|</span>
+			<span class ="sep"> | </span>
 			<?php
-			printf(esc_html_('Theme:1$s by %2$s.','nature'), 'nature','<a href="http://Underscores.me</a>');
+			//printf(esc_html_('Theme: %1$s by %2$s.','Nature'),'nature','<a href="http://underscores.me/">Underscores.me</a>' );
+			
 			?>
+          <div class="footerinfoarea">
+	
+    <div class="clear"></div>
+    <div class="footermenu">
+    	<?php wp_nav_menu( array('theme_location' => 'footermenu') ); ?>
+    </div>
+	 </div>
+<div id="copyright-area">
+<div class="copyright-wrapper">
+<div class="container">
+     <div class="copyright-txt"><?php echo esc_html('Nature');?></div>
+     <div class="clear"></div>
+           
+</div>
+
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
