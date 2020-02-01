@@ -18,17 +18,18 @@ This theme, like WordPress, is licensed under the GPL.This theme, like WordPress
 nature_miz is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL
  v2 or later)
 */
+
 #colophon{padding:25px 0; background:#11041b;}
-.footermenu ul{display:block;}
+.footermenu ul{display:block; font-family: TIMES NEW;}
 .footermenu ul li{display:inline-block; text-align:center; list-style:none; margin: 10px 22px;}
-.footermenu ul li a{color:#838282; font-size:17px;}
+.footermenu ul li a{color:#838282; font-size:20px;}
 .footermenu ul li a:hover{color:#ffffff;}
  
 }
 
 #site-navigation{
 
-background-color:grey;
+background-color:none;
 
 }
 #masthead{
@@ -39,6 +40,12 @@ background-color:grey;
   position: relative;
   background-color: #11041b;
 
+
+}
+#masthead ul{
+	float:right;
+	padding-left: 10px;
+	background-color:none;
 
 }
 
@@ -62,91 +69,74 @@ background-color:grey;
 	position:right;
 	top: 100%;
 	left: -999em;
-	z-index: 99999;
+	z-index: ;
+	float: right;
+	
+
 }
 
 #site-navigation ul ul ul {
+    float: right;
 	left: -999em;
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	left: 100%;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
-
+.
 #site-navigation li {
-	float: left;
+	position:right;
+	float: right;
 	position: relative;
+}
+#navbar-brand{
+	font-family: NEWS TIME;
+	font-size: 30px;
 }
 
 #navbar-brand a {
-	float: left;
+	font-family: NEWS TIME;
+	font-size: 30px;
+	float: right;
 	display: block;
 	text-decoration: none;
 }
+/* 
+this is about first(top of) the header
+*/
 
-/*.site-branding{
+.site-branding{
 	width: 1170px;
   margin: 0 auto;
   position: left;
+  background-color:none;
 
-
-}*/
-.site-branding{
-
-	background-color: white;
-}
 #page{
     background-color: white;
-    border-image-width: -10px;
+    border-image-width: 10px;
     text-align-last:left;
 
 }
 
 
 .page-title screen-reader-text{
-	text-color:;
+	background-color: white;
 	text-align: center;
 	text-decoration-color: white;
 }
 body {
   background-color: #fff;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   line-height: 20px;
   font-size: 14px;
   color: #5c5b5b;
+  padding-left: -5px;
   font-family: Arial, Helvetica, sans-serif;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box:10px;
-}
-	
-	/*body{
-		background: #e7e7e7;
-		font-size:16px;
-		color:#333;
-		background-color:#EEE;
+  box-sizing: border-box:10px;}
 
-	}*/
-	header{
-		background:#11041b;
-		width:100%;
-		height:100%;
-
-	}
 }
 .site-info{
 	margin-bottom: 14px;
@@ -155,21 +145,33 @@ body {
 	align-items: right;
 
 }
+/* 
+this is about the header menus
+*/
+
 .navbar-expand-md .navbar-collapse{
-	background:;
-	text-color:white;
 	text-align: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 200px;
 }
+/* 
+this is about the header menus
+*/
 .navbar-collapse{
-	color: ;
+	float: right;
+	font-size: 25px;
+	font-family: NEWS TIME;
+	background-color:#11041b;
 	align-items: flex-end;
+   
 }
 button{
 	background-color:green;
 }
 
 input.search-submit{
-	background-color: #07A3B2;
+	background-color:none;
 }
 .site-navigation{
 	margin-top: 50px;
