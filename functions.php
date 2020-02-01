@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * Nature functions and definitions
  *
@@ -224,6 +224,9 @@ class nat extends Walker_Nav_Menu
         }
     }
 }
+add_image_size('smallest', 300 , 300 , true);
+add_image_size('largest', 800 , 800 , true);
+
 /**
  * Implement the Custom Header feature.
  */
