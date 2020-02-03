@@ -26,21 +26,12 @@ nature_miz is based on Underscores theme(Underscores is distributed under the te
 .footermenu ul li a:hover{color:#ffffff;}
  
 }
-
-#site-navigation{
-
-background-color:none;
-
-}
 #masthead{
 	margin-right:10px; 
 	align-items: right;
 	width: 100%;
-  z-index: 999;
-  position: relative;
-  background-color: #11041b;
-
-
+    position: relative;
+    background-color: #11041b;
 }
 #masthead ul{
 	float:right;
@@ -49,14 +40,14 @@ background-color:none;
 
 }
 
-#site-navigation {
+/*#site-navigation {
 	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
 }
 
-/*#site-navigation ul {
+#site-navigation ul {
 	display:none;
 	list-style: none;
 	margin: 0;
@@ -74,27 +65,15 @@ background-color:none;
 	
 
 }
-
-#site-navigation ul ul ul {
-    float: right;
-	left: -999em;
-	top: 0;
-}
-
-.
 #site-navigation li {
-	position:right;
 	float: right;
-	position: relative;
+	
 }
-#navbar-brand{
-	font-family: NEWS TIME;
-	font-size: 30px;
-}
-
+/*nav links.....*/
 #navbar-brand a {
+	color: white;
 	font-family: NEWS TIME;
-	font-size: 30px;
+	font-size: 25px;
 	float: right;
 	display: block;
 	text-decoration: none;
@@ -108,6 +87,7 @@ this is about first(top of) the header
   margin: 0 auto;
   position: left;
   background-color:none;
+}
 
 #page{
     background-color: white;
@@ -136,13 +116,6 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box:10px;}
-
-}
-.site-info{
-	margin-bottom: 14px;
-	text-align: center;
-	margin-top: -16px;
-	align-items: right;
 
 }
 /* 
@@ -189,22 +162,3 @@ input.search-submit{
 	height: 80px;
 }
 
-.column1 {
-	float: left;
-	width: 33.33%;
-	padding: 15px;
-  }
-  
-  /* Clear floats after the columns */
-  .row1:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  #rcorners2 {
-	border-radius: 25px;
-	border: 2px solid #73AD21;
-	padding: 20px;
-	width: 200px;
-	height: 150px;
-  }
